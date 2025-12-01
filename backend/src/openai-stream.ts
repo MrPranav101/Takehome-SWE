@@ -143,7 +143,7 @@ export function createAIStream(
 }
 
 /**
- * Alternative: Get a complete response without streaming (useful for retries)
+ * Alternative: Get a complete response without streaming
  */
 export async function getAIResponse(
   userMessage: string,
